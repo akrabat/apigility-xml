@@ -1,6 +1,6 @@
 # ApigilityXml
 
-This is an Apigility module to provide XML content-negotiation features. It allows for the rendering of payloads in XML and HAL+XML formats. It also supports ingesting HTTP bodies that are in XML format if hte content-type is `application/xml`
+This is an Apigility module to provide XML content-negotiation features. It allows for the rendering of payloads in XML and HAL+XML formats. It also supports ingesting HTTP bodies that are in XML format if the content-type is `application/xml`
 
 The response type is based on *Accept* header:
 
