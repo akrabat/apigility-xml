@@ -97,6 +97,9 @@ class XmlContentTypeListener
                 );
             }
 
+            // Remove the top level tag from the data array
+            $data = array_shift($data);
+
             // Decode 'application/hal+xml' to 'application/xml' by merging _embedded into the array
             if (isset($data['_embedded'])) {
                 foreach ($data['_embedded'] as $key => $value) {
