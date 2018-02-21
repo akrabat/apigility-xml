@@ -131,7 +131,7 @@ class XmlModel extends BaseViewModel
             $pages = is_array($object) ? array() : $object->getPages();
             $output = array('type' => 'collection', 'data' => $data, 'pages' => $pages);
         } elseif ($payload instanceof Entity) {
-            $object = $payload->entity;
+            $object = $payload->getEntity();
             $output = array('type' => 'entity', 'data' => $object);
         } elseif (is_array($payload)) {
             $output = ArrayUtils::iteratorToArray($payload);
