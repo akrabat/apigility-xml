@@ -32,6 +32,6 @@ The response type is based on *Accept* header:
 
 This module is a fork of https://github.com/diegograssato/apigility-xml-negotiation
 which appears to be a fork of https://github.com/zpetr/apigility-xmlnegotiation which
-is a inspired by the https://github.com/markushausammann's ApigilityXml.
+was inspired by the https://github.com/markushausammann's ApigilityXml.
 
 Thanks to everyone who came before me!
